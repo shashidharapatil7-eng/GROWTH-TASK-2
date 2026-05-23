@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="refresh" content="0; url=./index.html"/>
+<title>∞ GROWTH TASK — Redirecting...</title>
+<style>
+  body{
+    background:#020204;
+    color:#f5c518;
+    font-family:'Courier New',monospace;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    margin:0;
+    flex-direction:column;
+    gap:16px;
+    text-align:center;
+  }
+  .bat{font-size:48px;animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+  p{font-size:13px;color:#555;letter-spacing:2px}
+  a{color:#f5c518;text-decoration:none;font-size:12px;letter-spacing:3px;border:1px solid #f5c51844;padding:8px 20px;border-radius:4px}
+  a:hover{background:#f5c51811}
+</style>
+</head>
+<body>
+<div class="bat">🦇</div>
+<div style="font-size:24px;letter-spacing:6px">GROWTH TASK</div>
+<p>Redirecting to Command Center...</p>
+<a href="./index.html">ENTER GOTHAM →</a>
+<script>
+  // Redirect to index for any 404 on GitHub Pages
+  var seg = window.location.pathname.replace('/growth-task','');
+  window.location.replace(window.location.origin + '/growth-task/index.html');
+</script>
+</body>
+</html>
